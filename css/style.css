@@ -251,7 +251,7 @@ ul{
 }
 #about .social-media-links {
   position: absolute;
-  right:5%;
+  left:5%;
   bottom: 5%;
   color: rgb(245, 245, 245);
   z-index: 9;
