@@ -877,7 +877,7 @@ display: none;
   font-family: brook;
   font-size: 16px;
 }
-#about .social-media-links .desktop{
+#about .links-desktop{
   display: none;
 }
 .slides img,.forest-slides img,.wildlife-slides img,.city-slides img{
@@ -1018,7 +1018,7 @@ FOR EXTRA SMALL DEVICES
   #about .social-media-links ul li , .project .social-media-links ul li{
     font-size: 14px;
   }
-  #about .social-media-links .desktop{
+  #about .links-desktop{
     display: none;
   }
   .navigation-close-line{
@@ -1105,7 +1105,7 @@ input{
   .view-project{
     display: none;
   }
-  #about .social-media-links .mobile{
+  #about .links-mobile{
     display: none;
   }
 }
@@ -1126,7 +1126,7 @@ FOR TABLETS
   background-position: center;
   background-size: cover;
 }
-#about .social-media-links .desktop{
+#about .links-desktop{
   display: none;
 }
 .slides img,.forest-slides img,.wildlife-slides img,.city-slides img{
