@@ -477,6 +477,14 @@ z-index: 2;
   opacity: .9;
   padding: 0;
 }
+.description{
+  font-size: 18px;
+  font-weight: 200;
+  font-family: brook;
+  margin-top: -10px;
+  opacity: .9;
+  padding: 0;
+}
 .pace {
   pointer-events: none;
   user-select: none;
@@ -887,6 +895,9 @@ display: none;
 .view-project{
   display: block;
 }
+.description{
+  display: none;
+}
 .input-line{
   flex-direction: column;
 }
@@ -1025,7 +1036,9 @@ FOR EXTRA SMALL DEVICES
   .view-project{
     display: block;
   }
-  
+  .description{
+    display: none;
+  }
   .pace{
     width:200px;
   }
@@ -1080,6 +1093,13 @@ input{
 
 }
 
+/* for desktops only */
+
+@media (min-width: 992px){
+  .view-project{
+    display: none;
+  }
+}
 
 /*
 FOR TABLETS
@@ -1108,6 +1128,9 @@ FOR TABLETS
 .view-project{
   display: block;
   font-size: 20px;
+}
+.description{
+  display: none;
 }
 .pace{
   width:300px;
