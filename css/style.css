@@ -359,6 +359,8 @@ ul{
 }
 .contact-button{
   padding:10px 20px;
+  margin-bottom: 10%;
+  margin-right: 10%;
   background: rgb(245, 245, 245);
   outline: none;
   border: none;
