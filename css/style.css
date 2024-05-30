@@ -195,7 +195,7 @@ ul{
 .swiper-pagination-container
 {
   position: relative;
-  width: 100px;
+  width: 150px;
   height:70px;
   z-index: 10;
   padding:10px 
@@ -983,7 +983,7 @@ FOR EXTRA SMALL DEVICES
   .slide-text{
     font-size: 70px;
   }
-  #home .social-media-links{
+  #home .links-desktop{
   display: none;
   }
   .about-img{
